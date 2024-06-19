@@ -49,18 +49,13 @@ print("your are position " + position)
 family_name = input("what is your family name?")
 print("Hello " + family_name)
 print("Goodmorning " + family_name)
-# details = input("what are your names")
-# print("Hello " + details)
-
-
-greeting = "hello"
-name = "peter njuguna"
-role = "you are a proffesor"
-
-full_sentence = f"{greeting} {name} {role}"
-print(full_sentence)
 
 first_name = input("enter your first name")
 last_name = input("enter your last name")
 profession = input("enter your profession")
 input("Hello " + first_name + " " + last_name + " " + "you are a  " + profession)
+
+# Types of conversation
+birth_year = input("What is your birth year?")
+age = 2024 - int(birth_year)
+print(age)
