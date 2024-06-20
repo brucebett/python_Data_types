@@ -56,6 +56,12 @@ profession = input("enter your profession")
 input("Hello " + first_name + " " + last_name + " " + "you are a  " + profession)
 
 # Types of conversation
+
 birth_year = input("What is your birth year?")
 age = 2024 - int(birth_year)
 print(age)
+
+one = input("what is your first number?")
+two = input("what is your second number?")
+sum = int(one) + int(two)
+print(sum)
