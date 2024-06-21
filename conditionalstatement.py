@@ -1,4 +1,4 @@
-marks = 119
+marks = 11
 if marks > 80 and marks <= 100:
     print("Grade A")
 elif marks >= 70 and marks <= 100:
