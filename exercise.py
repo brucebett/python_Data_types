@@ -7,12 +7,11 @@ if number % 2 == 0:
 else:
     print(f"{number} is even.")
 
-
 #Write a python program that takes a person's age and then
 #then  'classifies it into different life stages'
 #  (e.g child, teen, Adult, Senior)
 
-       # Lec Method
+# Lec Method
 age = int(input("Enter your age:"))
 if 51 < age <= 130:
     print(" Senior")
@@ -27,6 +26,8 @@ else:
     print("Please insert a value within the lifespan")
 
     # Chatgpt Method
+
+
 def classify_age(age):
     if age < 0:
         return "Invalid age"  # Handle negative age as invalid
@@ -39,6 +40,7 @@ def classify_age(age):
     else:
         return "Senior"
 
+
 def main():
     while True:
         try:
@@ -49,6 +51,7 @@ def main():
             print(f"You are classified as a '{stage}'")
         except ValueError:
             print("Invalid input. Please enter a valid age (integer).")
+
 
 if __name__ == "__main__":
     main()

@@ -62,7 +62,7 @@ print(sum2)
 print(sum1 >= sum2)
 print(sum1 <= sum2)
 
-          # Logical Operators
+# Logical Operators
 
 marks1 = 70
 marks2 = 80
