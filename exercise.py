@@ -55,3 +55,27 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+# Create a function that takes in two numbers and perform the summation then diaplay
+def summation(num1, num2):
+    print(f"the sum of {num1} and {num2} is: {num1 + num2}")
+
+
+summation(57, 34)
+
+
+# Create a function called greet  that take a person name as an argument and return
+# a greeting message. If the name is 'Alice' or 'Bob' the function should return a
+# personalized greeting. For any other name it should return a generic greeting
+
+
+def greet(name):
+    if name == 'Alice':
+        print('hi ' + name + '')
+    elif name == 'Bob':
+        print('greetings ' + name + '')
+
+
+greet('Alice')
+greet('Bob')
